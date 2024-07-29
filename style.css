@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(44, 44, 44);
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    height: 256px;
+    width: 256px;
+}
+
+input[type="text"] {
+    background-color: rgb(39, 39, 39);
+    color:white;
+}
+
+input[type=text]:focus{
+    outline: 0px solid black;     /* oranges! yey */
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+}
+
+input[value="%"] {
+    font-size: 7pt;
+}
+
+#screen {
+    height: 40px;
+    width: 250px;
+    font-size: larger;
+}
