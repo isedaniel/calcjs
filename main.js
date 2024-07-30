@@ -1,4 +1,5 @@
 const { app, BrowserWindow } = require('electron');
+const { setMenu } = require('./menu.js');
 
 const createWindow = () => {
   const win = new BrowserWindow({
@@ -10,5 +11,6 @@ const createWindow = () => {
 };
 
 app.whenReady().then(() => {
+  setMenu();
   createWindow();
 });
